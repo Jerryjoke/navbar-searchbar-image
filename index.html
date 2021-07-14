@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		a{
+			text-decoration: none;
+		}
+		.header{
+			background-color: grey;
+		}
+		.container{
+			max-width: 1300px;
+			margin: auto;
+		}
+		.navbar{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo a{
+			color: white;
+			font-size: 35px;
+			font-weight: bold;
+		}
+		.logo a span{
+			color: yellow;
+			font-size: 38px;
+		}
+		.search input{
+			width: 340px;
+			height: 30px;
+			border: none;
+			border-radius: 5px 0 0 5px;
+			outline: none;
+			font-size: 16px;
+			padding: 0 5px;
+		}
+		.search i{
+			float: right;
+			padding: 7px 7px;
+			background-color: white;
+			border: none;
+			border-radius: 0 5px 5px 0;
+			cursor: pointer;
+		}
+		.profile{
+			margin-top: 8px;
+		}
+		.profile img{
+			border-radius: 50%;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href=""><span>L</span>ogo</a>
+				</div>
+				<div class="search">
+					<input type="search" name="search" placeholder="search...">
+					<i class="fa fa-search"></i>
+				</div>
+				<div class="profile">
+					<img src="1.jpg" width="60px">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
